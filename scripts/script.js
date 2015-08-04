@@ -1,17 +1,14 @@
 $(document).ready(function() {
-    var $row = $('<tr></tr>');
-    var $square = $('<td class="gridsquare"></td>');
-    function populateGrid(n) {
-        for(var i = 0; i <= n; i++) {
-            console.log("row " + i);
-            $('#grid').prepend($row);
-        }
-        
-        for(var i = 0; i < n; i++) {
-            console.log(i);
-            $('#grid').find('tr').append($square);
-        }
-    }
-    
-    populateGrid(16);
+	var $square = $('<var class="gridsquare"></var>');
+	var populateGrid = function(n) {
+		$("#gridwrapper").html(''); // Empty grid
+		
+		for(var i = 0; i < n; i++) { // Rows
+			for(var j = 0; j < n; j++){ // Row Elements
+				$('#gridwrapper').append('<div class="gridsquare"></div>');
+			}
+			$('#gridwrapper').append('<div class="newrow"></div>');
+		}
+	}
+	populateGrid(16);
 });

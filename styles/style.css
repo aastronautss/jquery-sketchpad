@@ -2,19 +2,21 @@
     border: 1px dashed #666;
     min-height: 192px;
     min-width: 192px;
-}
-
-#grid {
-    border-collapse: collapse;
-    border-spacing: 0px;
+    overflow: auto;
+	margin: auto;
 }
 
 .gridsquare {
-    position: relative;
+    float: left;
+    border: none;
     background-color: #000;
     height: 12px;
     width: 12px;
     /*border: none;*/
     padding: 0 0 0 0;
     /*margin: 0 0 0 0;*/
+}
+
+.newrow {
+    clear: both;
 }
