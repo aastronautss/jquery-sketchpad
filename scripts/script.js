@@ -43,6 +43,10 @@ function populateGrid(squareSize, option) { //Main function:
 				var getColor = function() {return Math.floor(Math.random() * 256);};
 				$(this).css('background-color', 'rgb(' + getColor() + ', ' + getColor() + ', ' + getColor() + ')');
 				break;
+			case 3:
+				$(this).fadeTo(100, 0);
+				$(this).on('mouseleave', function() {$(this).fadeTo(400, 1);});
+				break;
 		}
 	});
 }
