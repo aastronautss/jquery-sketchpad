@@ -1,4 +1,5 @@
 #gridwrapper {
+	top: 25px;
     border: 1px dashed #666;
     height: 592px;
     width: 592px;
@@ -19,8 +20,13 @@
     clear: both;
 }
 
-#sizewrapper {
+.inputwrapper {
     margin: 20px auto 0 auto;
-	max-width: 275px;
+	max-width: 592px;
 	text-align: center;
+}
+
+.optbutton {
+	padding: 5px 5px 5px 5px;
+	width: 120px;
 }
