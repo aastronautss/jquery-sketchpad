@@ -1,22 +1,26 @@
 #gridwrapper {
     border: 1px dashed #666;
-    min-height: 192px;
-    min-width: 192px;
+    height: 592px;
+    width: 592px;
     overflow: auto;
-	margin: auto;
+    margin: auto;
 }
 
 .gridsquare {
     float: left;
     border: none;
     background-color: #000;
-    height: 12px;
-    width: 12px;
-    /*border: none;*/
+    height: 37px;
+    width: 37px;
     padding: 0 0 0 0;
-    /*margin: 0 0 0 0;*/
 }
 
 .newrow {
     clear: both;
+}
+
+#sizewrapper {
+    margin: 20px auto 0 auto;
+	max-width: 275px;
+	text-align: center;
 }
