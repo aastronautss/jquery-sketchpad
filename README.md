@@ -1,7 +1,7 @@
 # jquery-sketchpad
 Introductory Javascript/JQuery project for the Odin Project.
 
-Spec: Create an nxn grid of \<div\>s and use jquery to change the state of each <div> as the mouse hovers over them.
+Spec: Create an nxn grid of \<div\>s and use jquery to change the state of each \<div\> as the mouse hovers over them.
 
 * Make the \<div\>s switch from black to white.
 * Make the \<div\>s decrease in opacity each time the mouse hovers them.
