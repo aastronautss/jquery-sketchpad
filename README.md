@@ -8,3 +8,5 @@ Spec: Create an nxn grid of \<div\>s and use jquery to change the state of each 
 * Make the \<div\>s change to a random color as the mouse hovers them.
 * Make the mouse leave a trail as it moves across the grid.
 * Provide a way to change the size of the \<div\>s while keeping the square the same size.
+
+http://www.theodinproject.com/web-development-101/javascript-and-jquery
